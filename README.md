@@ -23,7 +23,7 @@ Usage of ./tldr2cheat:
         Output folder to use
 ```
 
-tldr2cheat might executed with
+tldr2cheat might be executed with
 - `-file` flag
 - both `-infolder` and `-outfolder` flags
 
