@@ -40,6 +40,8 @@ func convertToCheat(tldrLines []string) string {
 			!(tldrLines[index] == "" && index > 0 && tldrLines[index-1] == "") {
 
 			line = strings.Replace(line, "`", "", -1)
+			line = strings.Replace(line, "{{", "", -1)
+			line = strings.Replace(line, "}}", "", -1)
 			cheatLines = append(cheatLines, strings.Replace(line, "`", "", -1))
 		}
 	}
